@@ -12,9 +12,10 @@
 # However if you say 'I LOVE YOU GRANDMA!', she should respond with
 # 'I LOVE YOU TOO PUMPKIN!'
 
-def speak_to_grandma
+def speak_to_grandma(phrase)
   phrase = gets.chomp!
   
   if phrase == "I LOVE YOU GRANDMA"
     puts "I LOVE YOU TOO PUMPKIN!"
 end 
+ speak_to_grandma(phrase)
